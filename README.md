@@ -67,7 +67,49 @@ The following diagram show the process/workflow of the application.
    * I set username so that no one can publicly access the end point. Better way was to create the User in data and send username and password.
    * For simplicity, I used the ```gem "dotenv-rails"``` to set environment variable where i set ```username: admin``` in ```.env``` file.
    * For now i am not putting ```.env``` file into ```.gitignore``` so that you can do test.
- * If username will be correct then you will get TOKEN as a output. If authentication fails then you will receive and error message.
+ * If username will be correct then you will get TOKEN as a output. 
  
+ ```
+ {
+     "token": "eyJhbGciOiJIUzI1NiJ9.ImFkbWluIg.8eM8-fE4dpVz5vYvDipBaDX7uZLEWDSv-WUMNAN4AK8",
+     "exp": "05-31-2019 18:18"
+ }
+ ```
  
-![alt text](https://raw.githubusercontent.com/sajjadmurtaza49/asana_rebel_api/master/app/public/authentication.png "api Screenshot")
+![alt text](https://raw.githubusercontent.com/sajjadmurtaza/asana_rebel_api/master/public/authentication.png "api Screenshot")
+
+ * If authentication fails then you will receive and error message.
+ 
+![alt text](https://raw.githubusercontent.com/sajjadmurtaza/asana_rebel_api/master/public/fail.png "api Screenshot")
+
+***
+
+* On successful, you will get a token that will very similar to ```"eyJhbGciOiJIUzI1NiJ9.ImFkbWluIg.8eM8-fE4dpVz5vYvDipBaDX7uZLEWDSv-WUMNAN4AK8"```
+  * Token have 3 parts(separated by . (dot))
+    * Header
+    * Payload
+    * Signature
+  * If anything will changed then token will not work
+* Next step is to get Address Coordinate, Enter URL 
+    * ```http://localhost:3000/api/v1/addresses```
+      * make you entered correct url with ```/api/v1```
+    * set Headers
+      * ```Authorization = "TOKEN THAT YOU GOT IN PREVIOUS REQUEST"```
+      * ```address = "any valid address e.g. alexanderplatz"```
+* If request is fine then you will get response in ```JSON``` format which include
+    * Coordinates in a array ```[]``` # latitude and longitude
+      * e.g. ```[52.52194065, 13.4134889978456]```
+      * Here ```52.52194065``` is latitude of the address and ```13.4134889978456``` is longitude
+      
+```     
+ {
+     "coordinates": [
+         52.52194065,
+         13.4134889978456
+     ],
+     "address": "Alexanderplatz, Spandauer Vorstadt, Mitte, Berlin, 10178, Germany",
+     "status": "ok"
+ }
+```
+  
+![alt text](https://raw.githubusercontent.com/sajjadmurtaza/asana_rebel_api/master/public/api.png "api Screenshot")
