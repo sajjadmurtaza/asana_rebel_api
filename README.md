@@ -113,3 +113,15 @@ The following diagram show the process/workflow of the application.
 ```
   
 ![alt text](https://raw.githubusercontent.com/sajjadmurtaza/asana_rebel_api/master/public/api.png "api Screenshot")
+
+### Specs
+
+run ``` bundle exe rspec   ``` to run the tests
+
+#### Note
+
+* [JWT](https://github.com/jwt/ruby-jwt) - JWT tokens for authentication.
+* [geocoder](http://www.rubygeocoder.com/) - geocoding library for Ruby.
+* [dotenv-rails](https://github.com/bkeepers/dotenv) - use to load environment variables from .env file
+* [rspec-rails](https://github.com/rspec/rspec-rails) - testing framework
+* [byebug](https://github.com/deivid-rodriguez/byebug) -  debugger for Ruby

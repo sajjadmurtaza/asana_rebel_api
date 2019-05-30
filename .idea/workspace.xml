@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5215772b-41ab-4a02-b2bb-abf4e2e4741e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/api.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fail.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -27,8 +24,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="242">
-                <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+              <first_editor relative-caret-position="782">
+                <caret line="125" column="71" selection-start-line="125" selection-start-column="71" selection-end-line="125" selection-end-column="71" />
               </first_editor>
               <second_editor />
             </state>
@@ -65,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="210">
+              <caret line="14" column="29" selection-start-line="14" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -334,19 +331,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559127842236</updated>
-      <workItem from="1559127843496" duration="35333000" />
+      <workItem from="1559127843496" duration="36521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35333000" />
+    <option name="totallyTimeSpent" value="36521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="25" width="1867" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15705656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09939594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -578,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/authentication_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -606,11 +596,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="242">
-            <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+          <first_editor relative-caret-position="782">
+            <caret line="125" column="71" selection-start-line="125" selection-start-column="71" selection-end-line="125" selection-end-column="71" />
           </first_editor>
           <second_editor />
         </state>
