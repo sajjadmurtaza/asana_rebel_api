@@ -119,6 +119,7 @@ The following diagram show the process/workflow of the application.
 run ``` bundle exe rspec   ``` to run the tests
 
 #### Note
+I used following gems for this challenge.
 
 * [JWT](https://github.com/jwt/ruby-jwt) - JWT tokens for authentication.
 * [geocoder](http://www.rubygeocoder.com/) - geocoding library for Ruby.
